@@ -5,13 +5,13 @@
  */
 
 // Get a free API key here: openweathermap.org/appid
-const apiKey = ""
+const apiKey = "api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}"
 
 // Set to true for fixed location, false to update location as you move around
-const lockLocation = true
+const lockLocation = false
 
 // Set to imperial for Fahrenheit, or metric for Celsius
-const units = "imperial"
+const units = "metric"
 
 // The size of the widget preview in the app.
 const widgetPreview = "large"
